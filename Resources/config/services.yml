@@ -1,0 +1,8 @@
+services:
+   sunsetlabs_address.form.type.address:
+       class: Sunsetlabs\AddressBundle\Form\Type\AddressType
+       arguments:
+           - "%sl.address.class%"
+           - "%sl.address.form.fields%"
+       tags:
+           - { name: form.type, alias: address_type }

@@ -1,0 +1,23 @@
+{
+    "name": "sunsetlabs/address-bundle",
+    "type": "symfony-bundle",
+    "description": "Address functionality for Symfony2 applications",
+    "keywords": ["address", "ecommerce"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejo Rodriguez",
+            "email": "a.rodsott@gmail.com"
+        },
+        {
+            "name": "Sunsetlabs",
+            "homepage": "http://sunsetlabs.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Sunsetlabs\\AddressBundle\\": "" }
+    },
+    "branch-alias" : {
+        "dev-master" : "master"
+    }
+}
